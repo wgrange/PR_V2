@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "verse",
+      "maintainer": "Prestagon",
+      "websiteURL": "http://www.prestagon.com",
+      "email" : "techsupport@prestagon.com",
+      "platforms":
+      [
+        {
+          "name": "Verse Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/wgrange/PR_V.git",
+          "archiveFileName": "Verse-1.0.0.zip",
+          "checksum": "MD5:48305c5d2a2d0d76cde038f309eccd61",
+          "size": "7060371",
+          "boards": [
+            {
+              "name": "Verse"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
